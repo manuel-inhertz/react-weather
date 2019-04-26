@@ -9,7 +9,8 @@ import Form from './components/Form';
 import Weather from './components/Weather';
 import UI from './containers/UI';
 
-const API_KEY = "023fc03f628142cd192f74ef29af3a88";
+const API_KEY = ""; //your openweathermap api
+
 class App extends React.Component {
   state = {
     temperature: null,
